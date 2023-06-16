@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+	int a,b;
+	// Getting input of variable a
+	printf("Enter a: \n");
+	scanf("%d",&a);
+
+	// Getting input of variable b
+	printf("Enter b: \n");
+	scanf("%d",&b);
+
+	// Display the sum
+	printf("The sum is %d",a+b);
+
+	return 0;
+}

@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int main() {
+    int age;
+    char gender;
+
+    printf("Enter your age: ");
+    scanf("%d", &age);
+
+    printf("Enter your gender (M/F): ");
+    scanf(" %c", &gender);
+
+    if (age >= 18) { 
+        
+        if (gender == 'M' || gender == 'm') {
+            printf("You are an adult male.\n");
+        }
+        else if (gender == 'F' || gender == 'f') {
+            printf("You are an adult female.\n");
+        } 
+        else {
+            printf("Invalid gender input.\n");
+        }
+    }
+    
+    else {
+        
+        if (gender == 'M' || gender == 'm' ) {
+            printf("You are a male minor.\n");
+        }
+        else if (gender == 'F' || gender == 'f') {
+            printf("You are a female minor.\n");
+        } 
+        else {
+            printf("Invalid gender input.\n");
+        }
+    }
+
+    return 0;
+}

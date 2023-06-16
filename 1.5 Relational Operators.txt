@@ -1,0 +1,19 @@
+// Relational operators with if statement
+#include <stdio.h>
+
+int main()
+{
+	int age = 18;
+	if(age<18){
+		// If condition is true
+		printf("Person is not adult\n");
+	}
+	else if(age==18){
+		printf("Person age is 18\n");
+	}
+	else{
+		// if the condition is false
+		printf("Person is adult\n");
+	}	
+	return 0;
+}

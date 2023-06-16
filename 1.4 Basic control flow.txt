@@ -1,0 +1,16 @@
+// Basic Control flow
+#include <stdio.h>
+#include <stdbool.h>
+int main()
+{
+	bool isCorrect = true;
+	if(isCorrect){
+		// If condition is true
+		printf("Condition is true\n");
+	}
+	else{
+		// if the condition is false
+		printf("Conditon is false\n");
+	}	
+	return 0;
+}

@@ -1,0 +1,21 @@
+// Assignment Operators
+#include <stdio.h>
+
+int main() {
+    int a = 5;
+    printf("Value of a = %d",a);
+
+    a += 3; // a = a + 3;
+    printf("\nValue of a = %d",a);
+
+    a *= 5; // a = a * 5;
+    printf("\nValue of a = %d",a);
+
+    a -= 2; // a = a - 2;
+    printf("\nValue of a = %d",a);
+
+    a /= 7; // a = a / 7;
+    printf("\nValue of a = %d",a);
+
+    return 0;
+}

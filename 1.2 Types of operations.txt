@@ -1,0 +1,26 @@
+// Different types of operatrions
+#include <stdio.h>
+
+int main()
+{
+	// Assign value to variable
+	int a = 16;
+	int b = 7;
+	// Operations
+	int sum = a + b;
+	int diff = a - b;
+	int mult = a * b;
+	int division = a / b;
+	int mod =  a%b;
+
+	// Display the values
+	printf("Value of a = %d",a);
+	printf("\nValue of b = %d",b);
+	printf("\nSum = %d",sum);
+	printf("\nSubtraction = %d",diff);
+	printf("\nMutliplication = %d",mult);
+	printf("\nDivision = %d",division);
+	printf("\nRemainder = %d",mod);
+	
+	return 0;
+}

@@ -1,0 +1,15 @@
+// Different types of complex operatrions
+#include <stdio.h>
+
+int main()
+{
+	int expr_1 = 5 * 6 * 4;
+	printf("Value of expr_1 = %d",expr_1);
+
+	int expr_2 = 5 * 6 + 10 / 2;
+	printf("\nValue of expr_2 = %d",expr_2);
+
+	int expr_3 = 5 * (6 + 10) / 2;
+	printf("\nValue of expr_3 = %d",expr_3);
+	return 0;
+}
