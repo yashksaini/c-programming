@@ -1,0 +1,18 @@
+// Sum of digits of a number
+#include <stdio.h>
+
+int main() {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d",&num); // 123
+
+    int sum = 0;
+    for(int i = num; i>0; i = i / 10){
+        int rem = i % 10 ; // 1 
+        sum = sum + rem;
+    }
+    printf("Sum of digits = %d",sum);
+
+
+    return 0;
+}

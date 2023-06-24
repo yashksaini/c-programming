@@ -1,0 +1,49 @@
+// Reverse the digits of a number
+#include <stdio.h>
+
+int main() {
+    
+    int number ;
+    printf("Enter a number: ");
+    scanf("%d",&number);
+
+    int rev = 0;
+
+    for(int i = number ; i>0 ; i = i / 10 ){
+        int rem = i % 10;
+        rev = rev*10 + rem;
+    }
+
+    printf("Reverse of %d is %d",number,rev);
+
+
+    return 0;
+}
+
+/*
+    Program Logic 
+    
+    int output = 0;
+    int num = 1234; // num = 1234
+    int rem;
+
+    rem = num % 10; // rem = 4
+    output = output*10 + rem; // output = 4
+
+    num = num / 10; //num = 123
+
+    rem = num % 10 ; //rem = 3
+    output = output*10 + rem; //output = 43
+
+    num = num / 10; // num = 12
+
+    rem = num % 10; // rem = 2
+    output = output*10 + rem; // output = 432
+
+    num = num / 10; // num = 1
+
+    rem = num %10; // rem = 1
+    output = output*10 + rem; // output = 4321
+
+    num = num / 10; //num = 0
+*/
